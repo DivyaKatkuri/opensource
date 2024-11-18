@@ -1,1 +1,5 @@
-
+x=int(input())
+dis1=x*0.10
+dis2=100
+maxd=max(dis1,dis2)
+print(int(x-maxd))
